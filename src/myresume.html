@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WEB个人主页-韩扬</title>
+    <link rel="stylesheet" type="text/css" href="css/mystyle.css">
+    <link rel="stylesheet" type="text/css" href="css/color.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+</head>
+<body>
+<aside id="top_nav" style="position: fixed;z-index:99;">
+    <ul>
+        <li><a href="#page1">首页</a></li>
+        <li><a href="#page2">关于</a></li>
+        <li><a href="#page3">经历</a></li>
+        <li><a href="#page4">技能</a></li>
+        <li><a href="#page5">作品</a></li>
+        <li><a href="#page6">联系</a></li>
+    </ul>
+</aside>
+<div id="fullpage">
+    <div class="section">
+        <section class="first_page" id="p1">
+            <article>
+                <div class="logo1" >
+                    <div><img id="img1" src="img/h.png" alt="头像"></div>
+                </div>
+
+                <div class="m_head">
+                    <h2>HELLO</h2>
+                    <h1>my name is Han_Yang,</h1>
+                    <h3>I'm a Web Developer from China.</h3>
+                </div>
+
+                <div class="connect">
+                    <ul>
+                        <li><a><img src="img/电话.png" title="Tel" alt="Tel"></a></li>
+                        <li><a><img src="img/微信.png" title="WeChart" alt="WeChart"></a></li>
+                        <li><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=245406458&site=qq&menu=yes"><img src="img/QQ.png" title="QQ" alt="QQ"></a></li>
+                    </ul>
+                </div>
+            </article>
+            <footer>
+                <ul class="m_foot">
+                    <li>Age:<em>25</em></li>
+                    <li>Country:<em>China</em></li>
+                    <li>Now:<em>Looking for job</em></li>
+                </ul>
+            </footer>
+        </section>
+    </div>
+
+    <div class="section">
+        <section class="about_page" id="p2">
+            <header>
+                <div class="logo2"><img src="#"></div>
+                <h2>ABOUT</h2>
+                <hr/>
+                <h4>DO YOU WANT TO KONW ME?</h4>
+            </header>
+            <article>
+                <div class="about_logo">
+                    <ul>
+                        <li>
+                            <div class="circle_wrap"><img src="img/学历.png" alt="学历"></div>
+                            <h4>学历：本科</h4>
+                        </li>
+                        <li>
+                            <div class="circle_wrap"><img src="img/用户.png" alt="用户"></div>
+                            <h4>年龄：25</h4>
+                        </li>
+                        <li>
+                            <div class="circle_wrap"><img src="img/坐标.png" alt="坐标"></div>
+                            <h4>坐标：无锡</h4>
+                        </li>
+                        <li>
+                            <div class="circle_wrap"><img src="img/状态.png" alt="状态"></div>
+                            <h4>状态：离职</h4>
+                        </li>
+                    </ul>
+                </div>
+                <div class="m_about">
+                    <p>2013年毕业于江苏省无锡市江南大学自动化专业</p>
+                    <p>毕业后就职于健鼎（无锡）电子有限公司担任客服工程师</p>
+                    <p>2015年11月从健鼎离职，开始IT开发自学之旅</p>
+                </div>
+            </article>
+        </section>
+    </div>
+
+
+    <div class="section">
+        <section class="skill_page" id="p3">
+            <header>
+                <h2>SKILL</h2>
+                <hr/>
+                <h4>DO YOU WANT TO KONW ME?</h4>
+            </header>
+            <article>
+                <ul>
+                    <li>
+                        <div class="skill_wrap">
+                            <div class="bg"></div>
+                            <div class="skill_h">
+                                <h2>JAVA</h2>
+                                <img src="img/加号.png">
+                            </div>
+                        </div>
+
+                        <ul class="skill_m" id="JAVA">
+                        <li>熟悉Java编程语言</li>
+                        <li>熟悉面向对象的编程思想</li>
+                        <li>熟悉继承与接口实现</li>
+                        <li>熟悉多线程</li>
+                    </ul>
+                    </li>
+                    <li>
+                        <div class="skill_wrap">
+                            <div class="bg"></div>
+                            <div class="skill_h">
+                                <h2>HTML</h2>
+                                <img src="img/加号.png">
+                            </div>
+                        </div>
+                        <ul class="skill_m" id="HTML">
+                            <li>熟悉Web标准</li>
+                            <li>熟练运用html标签</li>
+                            <li>熟悉xml及xhtml标记语言</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="skill_wrap">
+                            <div class="bg"></div>
+                            <div class="skill_h">
+                                <h2>CSS</h2>
+                                <img src="img/加号.png">
+                            </div>
+                        </div>
+
+                        <ul class="skill_m" id="CSS">
+                            <li>熟练运用css及css3新属性</li>
+                            <li>注重浏览器兼容性，熟悉常见的css hack（兼容至IE8）</li>
+                            <li>掌握bootstrap框架及源码的实现</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <div class="skill_wrap">
+                            <div class="bg"></div>
+                            <div class="skill_h">
+                                <h2>JS</h2>
+                                <img src="img/加号.png">
+                            </div>
+                        </div>
+                        <ul class="skill_m" id="JS">
+                            <li>掌握jQuery</li>
+                            <li>熟悉原生JS的编程</li>
+                            <li>注重JavaScript性能优化</li>
+                            <li>正在学习AngularJS</li>
+                        </ul>
+                    </li>
+                </ul>
+            </article>
+        </section>
+    </div>
+
+
+
+    <div class="section">
+        <section class="exp_page" id="p4">
+            <header>
+                <h2>EXPERIENCE</h2>
+                <hr/>
+                <h4>DO YOU WANT TO KONW ME?</h4>
+            </header>
+            <article class="exp_m">
+                <article class="slide">
+                    <div>
+                        <header>
+                            <h2>校级项目负责人</h2>
+                            <h5>2011.11-2012.11</h5>
+                        </header>
+                        <ul>
+                            <li>作为组长负责协调团队各项事务</li>
+                            <li>负责硬件模块设计与软件编程</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="slide">
+                    <div class="m_exp">
+                        <header>
+                            <h2>电气工程师助理</h2>
+                            <h5>2012.7-2013.1</h5>
+                        </header>
+                        <ul>
+                            <li>协助撰写电气部分的设计任务书和电气设计方案</li>
+                            <li>参与产品的技术支持工作</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="slide">
+                    <div>
+                        <header>
+                            <h2>健鼎客服工程师</h2>
+                            <h5>2013.6-2015.11 </h5>
+                        </header>
+                        <ul>
+                            <li>处理客诉，与客户与驻场之间进行沟通</li>
+                            <li>在客户满意前提下减少公司损失</li>
+                        </ul>
+                    </div>
+                </article>
+                <article class="slide">
+                    <div>
+                        <header>
+                            <h2>自学</h2>
+                            <h5>2015.11-至今</h5>
+                        </header>
+                        <ul>
+                            <li>自学JAVA和前端的基础知识</li>
+                            <li>练习了一些web项目</li>
+                        </ul>
+                    </div>
+                </article>
+            </article>
+
+                <ul>
+                    <li><img src=""></li>
+                    <li><img src=""></li>
+                    <li><img src=""></li>
+                    <li><img src=""></li>
+                </ul>
+            </nav>
+        </section>
+    </div>
+
+
+    <div class="section">
+        <section class="mywork_page" id="p5">
+            <header>
+                <h2>MY_WORK</h2>
+                <hr/>
+                <h4>DO YOU WANT TO KONW ME?</h4>
+            </header>
+            <article>
+                <div class="work_show">
+
+                </div>
+                <nav>
+                    <a class="button2" title="next"></a>
+                    <a class="button2" title="back"></a>
+                </nav>
+            </article>
+        </section>
+    </div>
+    <div class="section">
+        <section class="contact" id="p6">
+            <header>
+                <h2>CONTACT</h2>
+                <hr/>
+                <h4>DO YOU WANT TO KONW ME?</h4>
+            </header>
+            <article>
+                <div><img src="" alt="">245406458@qq.com</div>
+                <div><img src="" alt="">18915266024</div>
+                <form action="mailto:245406458@qq.com" method="get">
+                    <input type="text" name="name" value="Your Name">
+                    <input type="text" name="email" value="Your Email">
+                    <input type="text" name="message" value="Your Message">
+                    <input type="submit" value="SEND YOUR MESSAGE">
+                </form>
+            </article>
+        </section>
+    </div>
+
+
+</div>
+
+<script type="text/javascript" src="js/jquery-3.1.0.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
