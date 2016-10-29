@@ -372,10 +372,15 @@ ul{
     position: relative;
     text-align: left;
     width: 500px;
-    padding:100px 100px;
+    padding:100px 130px;
 }
 .m_exp ul{
     list-style-type: disc;
+    margin: 40px 0;
+}
+.m_exp ul li{
+    margin: 20px 0;
+    font-size: 20px;
 }
 
 .exp_logo{
@@ -389,5 +394,22 @@ ul{
 .exp_logo img{
     width: 180px;
     height: 180px;
+}
+.contact article{
+    width: 900px;
+    height: 500px;
+    margin: 0 auto;
+    text-align:  center;
+}
+#form1{
+    height: 300px;
+}
+#form1 table input{
+    width: 446px;
+}
+#form1 table+input{
+    width: 900px;
+    height: 200px;
+    text-align: start;
 }
 -->
