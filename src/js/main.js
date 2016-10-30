@@ -12,8 +12,8 @@ $(function () {
             'paddingBottom': 100,
             'navigation': true,
             'navigationPosition': 'right',
-            'navigationTooltips': ['首页', '关于', '技能', '经历', '作品', '联系'],
-            'anchors': ["page1", "page2", "page3", "page4", "page5", "page6"],//页面锚链接
+            'navigationTooltips': ['首页', '关于', '技能', '经历', '作品'],
+            'anchors': ["page1", "page2", "page3", "page4", "page5"],//页面锚链接
             'loopHorizontal': true,
             'afterRender': function () {
                 $('.section').css('display', 'block');

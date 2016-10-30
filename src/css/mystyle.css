@@ -144,6 +144,16 @@ ul{
     border-radius: 100%;
     -moz-border-radius: 100%;
     -webkit-border-radius: 100%;
+    transition:transform 1s;
+    -webkit-transition:-webkit-transform 1s;
+    -moz-transition:-moz-transform 1s ;
+}
+
+.connect img:hover{
+    background-color: #63a35c;
+    transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);	/* Safari 和 Chrome */
+    -moz-transform: rotateY(360deg);/* Firefox */
 }
 .connect ul:before{
     content: "——————";
@@ -395,21 +405,7 @@ ul{
     width: 180px;
     height: 180px;
 }
-.contact article{
-    width: 900px;
-    height: 500px;
-    margin: 0 auto;
-    text-align:  center;
-}
-#form1{
-    height: 300px;
-}
-#form1 table input{
-    width: 446px;
-}
-#comment{
-    width: 900px;
-    height: 200px;
-    text-align: start;
-}
+
+
+
 -->
