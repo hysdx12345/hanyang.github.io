@@ -1,7 +1,4 @@
 $(function () {
-    $.ajax({
-        type: ""
-    })
     $('#fullpage').fullpage(
         {
             'sectionsColor': ['#5c5766', '#fafcfb', '#ffd670', '#ffffff', '#5c5766', ''],
@@ -107,4 +104,3 @@ $(function () {
     })
 })
 
-//留言
