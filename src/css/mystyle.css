@@ -407,7 +407,7 @@ ul{
 #form1 table input{
     width: 446px;
 }
-#form1 table+input{
+#comment{
     width: 900px;
     height: 200px;
     text-align: start;
