@@ -12,6 +12,7 @@ $(function () {
             'navigationTooltips': ['首页', '关于', '技能', '经历', '作品'],
             'anchors': ["page1", "page2", "page3", "page4", "page5"],//页面锚链接
             'loopHorizontal': true,
+            'scrollOverflow':true,
             'afterRender': function () {
                 $('.section').css('display', 'block');
             },
